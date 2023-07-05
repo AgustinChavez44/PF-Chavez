@@ -110,7 +110,8 @@ color: rgb(255, 155, 65);
 }
 @media (max-width: 577px) {
     #listafooter {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
     .contenidofooter {
         display: flex;
