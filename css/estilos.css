@@ -94,7 +94,7 @@ color: rgb(255, 155, 65);
     width: 700px;
     height: auto;
 }
-/*FOOTER*/
+                                                            /*FOOTER*/
 
 #listafooter {
     display: flex;
@@ -107,6 +107,11 @@ color: rgb(255, 155, 65);
     list-style: none;
     font-size: 150%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 577px) {
+    .contenidofooter {
+        font-size: 75%;
+    }
 }
 
                                                             /*CALIDAD*/
