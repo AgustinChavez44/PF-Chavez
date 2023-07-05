@@ -109,12 +109,9 @@ color: rgb(255, 155, 65);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 @media (max-width: 577px) {
-    #listafooter {
+    .contenidofooter {
         display: flex;
         flex-direction: row;
-    
-    }
-    .contenidofooter {
         font-size: 75%;
     }
 }
