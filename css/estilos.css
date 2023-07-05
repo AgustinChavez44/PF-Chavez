@@ -111,7 +111,7 @@ color: rgb(255, 155, 65);
 @media (max-width: 577px) {
     #listafooter {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     
     }
     .contenidofooter {
