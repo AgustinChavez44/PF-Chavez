@@ -112,6 +112,7 @@ color: rgb(255, 155, 65);
     #listafooter {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     .contenidofooter {
         display: flex;
