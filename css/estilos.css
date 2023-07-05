@@ -117,6 +117,7 @@ color: rgb(255, 155, 65);
     .contenidofooter {
         display: flex;
         flex-direction: row;
+        text-align: center;
         font-size: 75%;
     }
 }
