@@ -1,5 +1,5 @@
 footer {
-    background-color: #D04925;
+    background-color: $color_footer;
     section {
         div{
             ul {
@@ -8,10 +8,10 @@ footer {
                 margin: 30px;
                 list-style: none;
                 li {
-                    color: rgb(0, 0, 0);
+                    color: $color_letras;
                     list-style: none;
                     font-size: 150%;
-                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-family: $fuente;
                 }
             }
         }

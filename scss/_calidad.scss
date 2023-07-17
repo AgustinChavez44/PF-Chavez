@@ -6,17 +6,17 @@
             justify-content: center;
             text-align: center;
             font-size: 350%;
-            color: rgb(0, 0, 0);
-            font-family: Arial, Helvetica, sans-serif;
+            color: $color_letras;
+            font-family: $fuente;
             font-weight: bold;
         }
         div {
             .tex_laboratorio {
                 display: flex;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fuente;
                 font-size: 125%;
                 font-weight: bold;
-                color: rgb(0, 0, 0);
+                color: $color_letras;
                 border-radius: 25px;
                 padding: 20px;
                 border: solid 2px ;
@@ -30,9 +30,9 @@
                 display: flex;
                 justify-content: center;
                 text-align: center;
-                color: rgb(0, 0, 0);
+                color: $color_letras;
                 font-size: 150%;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fuente;
                 font-weight: bold;
                 background-color: #992E24;
                 border-radius: 5px;
@@ -43,9 +43,9 @@
                 display: flex;
                 justify-content: center;
                 align-content: center;
-                color: rgb(0, 0, 0);
+                color: $color_letras;
                 font-size: 150%;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fuente;
                 background-color: #D04925;
                 margin: 0;
                 padding: 5px;
@@ -54,8 +54,8 @@
     }
 /*MATERIALES*/
     .tex_materiales {
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(0, 0, 0);
+        font-family: $fuente;
+        color: $color_letras;
         font-size: 150%;
         font-weight: bold;
     }
@@ -79,14 +79,14 @@
         .t_politica_calidad {
             display: flex;
             justify-content: center;
-            color: rgb(0, 0, 0);
-            font-family: Arial, Helvetica, sans-serif;
+            color: $color_letras;
+            font-family: $fuente;
             font-size: 300%;
             font-weight: bold;
         }
         .tex_politica_calidad {
-            color: rgb(0, 0, 0);
-            font-family: Arial, Helvetica, sans-serif;
+            color: $color_letras;
+            font-family: $fuente;
             font-size: 150%;
             padding: 0 100px 0 100px;
             font-weight: bold;

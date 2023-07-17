@@ -1,10 +1,11 @@
 #main_contacto {
     .contactenos {
-        color: rgb(0, 0, 0);
-        font-family: Arial;
+        color: $color_letras;
+        font-family: $fuente;
         font-size: 45px;
         text-align: center;
         font-weight: bold;
+        margin-bottom: 50px;
     }
     #section_formulario {
         background-color: #d04a253b;
@@ -15,8 +16,8 @@
         #formulario {
             .div_casilla_contacto {
                 .titulo_de_llenado {
-                    color: #000000;
-                    font-family: Arial, Helvetica, sans-serif;
+                    color: $color_letras;
+                    font-family: $fuente;
                     font-size: 200%;
                     font-weight: bold;
                 }
@@ -24,9 +25,13 @@
             #booton {
                 display: flex;
                 background-color: coral;
+                color: $color_letras;
                 margin-top: 30px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fuente;
                 font-weight: bold;
+                &:hover {
+                    transform: scale(1.5);
+                }
             }
         }
     }

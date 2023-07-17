@@ -1,3 +1,5 @@
+/*COLORES*/
+/*FUENTE*/
 header {
   background-color: #000000;
 }
@@ -6,7 +8,7 @@ header nav div .logopantallas {
   height: auto;
 }
 header nav div div ul li a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
 }
 header nav div div ul li a:hover {
   background-color: coral;
@@ -28,10 +30,10 @@ footer section div ul {
   list-style: none;
 }
 footer section div ul li {
-  color: rgb(0, 0, 0);
+  color: #000000;
   list-style: none;
   font-size: 150%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 @media (min-width: 380px) and (max-width: 420px) {
@@ -47,8 +49,8 @@ footer section div ul li {
 }
 /*TITULO*/
 #main_inicio .titulomain {
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-family: "Arial", sans-serif;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -59,18 +61,18 @@ footer section div ul li {
   flex-direction: column;
   text-align: center;
   margin: 0 400px 0 400px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 200%;
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 #main_inicio section div {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 0 400px 0 400px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 200%;
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 #main_inicio section div {
   display: flex;
@@ -121,16 +123,16 @@ footer section div ul li {
   justify-content: center;
   text-align: center;
   font-size: 350%;
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-family: "Arial", sans-serif;
   font-weight: bold;
 }
 #main_calidad section div .tex_laboratorio {
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 125%;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: #000000;
   border-radius: 25px;
   padding: 20px;
   border: solid 2px;
@@ -139,9 +141,9 @@ footer section div ul li {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 150%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: bold;
   background-color: #992E24;
   border-radius: 5px;
@@ -152,16 +154,16 @@ footer section div ul li {
   display: flex;
   justify-content: center;
   align-content: center;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 150%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #D04925;
   margin: 0;
   padding: 5px;
 }
 #main_calidad .tex_materiales {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(0, 0, 0);
+  font-family: "Arial", sans-serif;
+  color: #000000;
   font-size: 150%;
   font-weight: bold;
 }
@@ -184,14 +186,14 @@ footer section div ul li {
 #main_calidad .cartel_politica_calidad .t_politica_calidad {
   display: flex;
   justify-content: center;
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-family: "Arial", sans-serif;
   font-size: 300%;
   font-weight: bold;
 }
 #main_calidad .cartel_politica_calidad .tex_politica_calidad {
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-family: "Arial", sans-serif;
   font-size: 150%;
   padding: 0 100px 0 100px;
   font-weight: bold;
@@ -238,8 +240,7 @@ footer section div ul li {
   /*PRODUCTOS A LA VENTA*/
 }
 #main_catalogo div .titulocat {
-  color: rgb(0, 0, 0);
-  font-family: Arial;
+  font-family: "Arial", sans-serif;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -247,9 +248,9 @@ footer section div ul li {
 }
 #main_catalogo div .textocat {
   padding: 0 500px 0 500px;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   text-align: center;
 }
 #main_catalogo #containergrid {
@@ -304,9 +305,9 @@ footer section div ul li {
   background-color: #D04925;
   padding: 0 300px 0 300px;
   border-radius: 30px;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 200%;
-  font-family: Arial;
+  font-family: "Arial", sans-serif;
   font-weight: bold;
 }
 #main_catalogo #containergrid .imgproduc {
@@ -320,9 +321,9 @@ footer section div ul li {
 }
 #main_catalogo #containergrid .textoproducto {
   padding: 0 300px 0 300px;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   justify-self: center;
   align-self: center;
   padding: 0;
@@ -363,8 +364,8 @@ footer section div ul li {
   }
 }
 #main_personalizacion section .titulo_main_perso {
-  color: rgb(0, 0, 0);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-family: "Arial", sans-serif;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -375,9 +376,9 @@ footer section div ul li {
   flex-direction: column;
   text-align: center;
   margin: 0 400px 0 400px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 150%;
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 #main_personalizacion section .div_imagenes {
   display: flex;
@@ -387,8 +388,8 @@ footer section div ul li {
   width: 600px;
 }
 #main_personalizacion section article .titulo_main_perso2 {
-  color: rgb(0, 0, 0);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-family: "Arial", sans-serif;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -399,9 +400,9 @@ footer section div ul li {
   flex-direction: column;
   text-align: center;
   margin: 0 400px 0 400px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 150%;
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 #main_personalizacion section .div_imagenes2 {
   display: flex;
@@ -450,11 +451,12 @@ footer section div ul li {
   }
 }
 #main_contacto .contactenos {
-  color: rgb(0, 0, 0);
-  font-family: Arial;
+  color: #000000;
+  font-family: "Arial", sans-serif;
   font-size: 45px;
   text-align: center;
   font-weight: bold;
+  margin-bottom: 50px;
 }
 #main_contacto #section_formulario {
   background-color: rgba(208, 74, 37, 0.231372549);
@@ -465,16 +467,20 @@ footer section div ul li {
 }
 #main_contacto #section_formulario #formulario .div_casilla_contacto .titulo_de_llenado {
   color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 200%;
   font-weight: bold;
 }
 #main_contacto #section_formulario #formulario #booton {
   display: flex;
   background-color: coral;
+  color: #000000;
   margin-top: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: bold;
+}
+#main_contacto #section_formulario #formulario #booton:hover {
+  transform: scale(1.5);
 }
 
 body {
