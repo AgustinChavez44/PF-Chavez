@@ -4,28 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ESTILOS-->
     <link rel="stylesheet" href="../css/estilos.css">
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <title>FAIC</title>
 </head>
-<body class="body_css">
+<body>
     <!--HEADER-->
-    <header class="header2">
-        <div>
-            <a href="../index.html"><img src="./img/Logo.jpg" alt="logo" class="logo"></a>
-        </div>
-        <!--rutas internas-->
-        <nav>
-            <ul class="navegacion">
-                <li class="lista"><a href="../index.html" class="alista">INICIO</a></li>
-                <li class="lista"><a href="./Catalogo.html" class="alista">CATALOGO</a></li>
-                <li class="lista"><a href="./Personalizacion.html" class="alista">PERSONALIZACION</a></li>
-                <li class="lista"><a href="./Calidad.html" class="alista">CALIDAD</a></li>
-                <li class="lista"><a href="./Contacto.html" class="alista">CONTACTO</a></li>
-            </ul>
-        <nav/>
+    <header class="header header_css">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="./img/Logo.jpg" alt="logo" class="logopantallas"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto" >
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" aria-current="page" href="../index.html"><strong>Inicio</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" href="./Catalogo.html"><strong>Catalogo</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" href="./Personalizacion.html"><strong>Personalizacion</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto"  href="./Calidad.html"><strong>Calidad</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" href="./Contacto.html"><strong>Contacto</strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <hr>
-    <main id="maincatalogo">
+    <main id="main_catalogo">
         <!--PRESENTACION DEL CATALOGO-->
         <div>
             <h2 class="titulocat">CATALOGO</h2>
@@ -33,7 +50,7 @@
             para viajes de poca duracion asi como viajes de larga distancia.</p>
         </div>
         <!--Productros a la venta-->
-        <section id="conteinergrid">
+        <section id="containergrid">
             
                 <h3 class="nombreproducto" id="np1">Ejecutivo</h3>
                 <img src="img/asiento1.jpg" alt="Asiento1" width="250" id="im1" class="imgproduc">
@@ -44,7 +61,7 @@
 
                 <h3 class="nombreproducto" id="np2">Semi cama</h3>
                 <img src="img/asiento2.jpg" alt="Asiento semicama" width="250" id="im2" class="imgproduc">
-                <p class="textoproducto" id="d2">Asientos dise+ñados para viajes de larga distancia, pensados para que el pasajero disfrute de su recorrido.
+                <p class="textoproducto" id="d2">Asientos diseñados para viajes de larga distancia, pensados para que el pasajero disfrute de su recorrido.
                 La adecuada reclinación del respaldo junto con el apoyapiernas, proporcionan la comodidad ideal para este tipo de viajes. Los asientos Moonraker están provistos 
                 de un sistema de reclinación hidráulica que les permite regular múltiples posiciones en forma suave y segura. Están disponibles en variadas opciones de tapicería y 
                 en diversos colores y texturas.</p>
@@ -61,20 +78,18 @@
 
             </section>
     </main>
-    <hr>
-    <!--Footer-->
-    <footer>
-        <section id="sectiofooter">
-            <h3 id="cont">CONTACTO</h3>
-            <nav>
+
+    <!--FOOTER-->
+    <footer class="container-fluid footercompleto">
+        <section class="container">
+            <div>
                 <ul id="listafooter">
-                    <li class="contenidofooter">Telefono: +54 3412222222</li>
+                    <li class="contenidofooter ">Telefono: +54 3412222222</li>
                     <li class="contenidofooter">Email: cont.faicproyecto@gmail.com</li>
                     <li class="contenidofooter">Direccion: "SAN MARTIN 9999"</li>
                 </ul>
-            <nav/>
+            </div>
         </section>
     </footer>
-
 </body>
 </html>

@@ -14,10 +14,10 @@
 </head>
 
 
-<body class="bg-secondary">
+<body>
     <!--Header-->
-    <header class="header">
-        <nav class="navbar navbar-expand-lg bg-dark p-0">
+    <header class="header header_css">
+        <nav class="navbar navbar-expand-lg p-0">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="./img/Logo.jpg" alt="logo" class="logopantallas"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,32 +46,32 @@
         </nav>
     </header>
     <!--MAIN-->
-    <main class="container p-4">
+    <main class="container p-4" id="main_contacto">
         <h2 class="contactenos">¡CONTACTENOS!</h2>
-    <section class="formulario">
-            <form action="">
-                <div class="mb-3">
-                    <label for="nombre" class="form-label color-white text-light">Nombre y Apellido</label>
+        <section id="section_formulario">
+            <form action="" id="formulario">
+                <div class="mb-3 div_casilla_contacto">
+                    <label for="nombre" class="form-label titulo_de_llenado">Nombre y Apellido</label>
                     <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre y apellido">
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label color-white text-light">Email</label>
+                <div class="mb-3 div_casilla_contacto">
+                    <label for="exampleFormControlInput1" class="form-label titulo_de_llenado">Email</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Email">
                 </div>
-                <div class="mb-3">
-                    <label for="telefono" class="form-label color-white text-light">Telefono</label>
+                <div class="mb-3 div_casilla_contacto">
+                    <label for="telefono" class="form-label titulo_de_llenado">Telefono</label>
                     <input type="tel" class="   form-control" id="telefono" placeholder="Ingrese su numero de telefono">
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label text-light"">Consuta</label>
+                <div class="mb-3 div_casilla_contacto">
+                    <label for="exampleFormControlTextarea1" class="form-label titulo_de_llenado"">Consuta</label>
                     <textarea class="form-control textareacontacto" id="exampleFormControlTextarea1" placeholder="Ingrese su consutla" rows="3"></textarea>
                 </div>
-                <button class="btn bg-dark text-light">Enviar</button>
+                <button class="btn" id="booton">Enviar</button>
             </form>
-    </section>
+        </section>
     </main>
     <!--FOOTER-->
-    <footer class="container-fluid bg-dark p-0">
+    <footer class="container-fluid footercompleto">
         <section class="container">
             <div>
                 <ul id="listafooter">

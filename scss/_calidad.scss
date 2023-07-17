@@ -1,0 +1,141 @@
+#main_calidad {
+    
+    section {
+        #t_laboratorio {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 350%;
+            color: rgb(0, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        div {
+            .tex_laboratorio {
+                display: flex;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 125%;
+                font-weight: bold;
+                color: rgb(0, 0, 0);
+                border-radius: 25px;
+                padding: 20px;
+                border: solid 2px ;
+            }
+        }
+    }
+/*NORMAS*/
+    section {
+        .bloquenorma {
+            .norma_seguridad {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                color: rgb(0, 0, 0);
+                font-size: 150%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                background-color: #992E24;
+                border-radius: 5px;
+                padding: 10px;
+                margin: 0;
+            }
+            .tex_norma {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                color: rgb(0, 0, 0);
+                font-size: 150%;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #D04925;
+                margin: 0;
+                padding: 5px;
+            }
+        }
+    }
+/*MATERIALES*/
+    .tex_materiales {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 150%;
+        font-weight: bold;
+    }
+/*IMAGENES*/
+    .div_imagenescalidad {
+        display: flex;
+        justify-content: center;
+        .imagenes_calidad {
+            width: 450px;
+        }
+    }
+/*POLITICA DE CALIDAD*/
+    .cartel_politica_calidad {
+        background-color: rgb(196, 196, 196);
+        border-radius: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 50px;
+        border: double 10px #D04925;
+        box-shadow: 0 0 50px #D04925;
+        .t_politica_calidad {
+            display: flex;
+            justify-content: center;
+            color: rgb(0, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 300%;
+            font-weight: bold;
+        }
+        .tex_politica_calidad {
+            color: rgb(0, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 150%;
+            padding: 0 100px 0 100px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+@media (min-width: 380px) and (max-width: 420px) {
+    #main_calidad {
+        section {
+            #t_laboratorio {
+                font-size: 175%;
+                text-align: center;
+            }
+            div {
+                .tex_laboratorio {
+                    font-size: 100%;
+                }
+            }
+        }
+/*NORMAS MOVIL*/
+        section {
+            .bloquenorma {
+                .norma_seguridad {
+                    font-size: 125%;
+                }
+                .tex_norma {
+                    font-size: 150%;
+                }
+            }
+        }
+/*MATERIALES MOVIL*/
+        .tex_materiales {
+            font-size: 110%;
+        }
+/*POLITICA DE CALIDAD MOVIL*/
+        .cartel_politica_calidad {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            padding: 25px;
+            .t_politica_calidad {
+                text-align: center;
+                font-size: 150%;
+            }
+            .tex_politica_calidad {
+                font-size: 100%;
+                padding: 5px 5px 5px 5px;
+            }
+        }
+    }
+}

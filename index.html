@@ -6,33 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--ESTILOS-->
     <link rel="stylesheet" href="./css/estilos.css">
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <!--TITULO-->
     <title>FAIC</title>
 </head>
 
-<body class="body_css">
-
+<body>
 
     <!--Header-->
-    <header class="header2">
-        <div>
-            <a href="index.html"><img src="./img/Logo.jpg" alt="logo" class="logo"></a>
-        </div>
-        <!--rutas internas-->
-        <nav class="headernav">
-            <ul class="navegacion">
-                <li class="lista"><a href="index.html" class="alista">INICIO</a></li>
-                <li class="lista"><a href="./pages/Catalogo.html" class="alista">CATALOGO</a></li>
-                <li class="lista"><a href="./pages/Personalizacion.html" class="alista">PERSONALIZACION</a></li>
-                <li class="lista"><a href="./pages/Calidad.html" class="alista">CALIDAD</a></li>
-                <li class="lista"><a href="./pages/Contacto.html" class="alista">CONTACTO</a></li>
-            </ul>
+    <header class="header header_css">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/Logo.jpg" alt="logo" class="logopantallas"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto" >
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" aria-current="page" href="./index.html"><strong>Inicio</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" href="./pages/Catalogo.html"><strong>Catalogo</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" href="./pages/Personalizacion.html"><strong>Personalizacion</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto"  href="./pages/Calidad.html"><strong>Calidad</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" href="./pages/Contacto.html"><strong>Contacto</strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <hr>
     <!--Main-->
-    <main>
+    <main id="main_inicio">
         <h2 class="titulomain">NUESTRA EMPRESA</h2>
         <!---Presentacion--->
         <div class="texto">
@@ -60,12 +75,12 @@
         </section>
     </main>
     <hr>
-    <!--Footer-->
-    <footer>
+    <!--FOOTER-->
+    <footer class="container-fluid">
         <section>
-            <div id="div_footer">
+            <div class="container">
                 <ul id="listafooter">
-                    <li class="contenidofooter">Telefono: +54 3412222222</li>
+                    <li class="contenidofooter ">Telefono: +54 3412222222</li>
                     <li class="contenidofooter">Email: cont.faicproyecto@gmail.com</li>
                     <li class="contenidofooter">Direccion: "SAN MARTIN 9999"</li>
                 </ul>

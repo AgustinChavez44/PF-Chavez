@@ -1,0 +1,33 @@
+#main_contacto {
+    .contactenos {
+        color: rgb(0, 0, 0);
+        font-family: Arial;
+        font-size: 45px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #section_formulario {
+        background-color: #d04a253b;
+        border: double 10px #D04925;
+        box-shadow: 0 0 50px #D04925;
+        padding: 50px;
+        border-radius: 50px;
+        #formulario {
+            .div_casilla_contacto {
+                .titulo_de_llenado {
+                    color: #000000;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 200%;
+                    font-weight: bold;
+                }
+            }
+            #booton {
+                display: flex;
+                background-color: coral;
+                margin-top: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+}

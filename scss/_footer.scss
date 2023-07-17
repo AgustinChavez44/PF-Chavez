@@ -1,0 +1,37 @@
+footer {
+    background-color: #D04925;
+    section {
+        div{
+            ul {
+                display: flex;
+                justify-content: space-around;
+                margin: 30px;
+                list-style: none;
+                li {
+                    color: rgb(0, 0, 0);
+                    list-style: none;
+                    font-size: 150%;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 380px) and (max-width: 420px) {
+    footer {
+        section {
+            div {
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        display: flex;
+                        justify-content: center;
+                        font-size: 75%;
+                    }
+                }
+            }
+        }
+    }
+}

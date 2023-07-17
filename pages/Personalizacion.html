@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ESTILOS-->
     <link rel="stylesheet" href="../css/estilos.css">
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <title>FAIC</title>
 </head>
-<body class="body_css">
+<body>
     <!--HEADER-->
-    <header class="header2">
-        <div>
-            <a href="../index.html"><img src="./img/Logo.jpg" alt="logo" class="logo"></a>
-        </div>
-        <!--rutas internas-->
-        <nav>
-            <ul class="navegacion">
-                <li class="lista"><a href="../index.html" class="alista">INICIO</a></li>
-                <li class="lista"><a href="./Catalogo.html" class="alista">CATALOGO</a></li>
-                <li class="lista"><a href="./Personalizacion.html" class="alista">PERSONALIZACION</a></li>
-                <li class="lista"><a href="./Calidad.html" class="alista">CALIDAD</a></li>
-                <li class="lista"><a href="./Contacto.html" class="alista">CONTACTO</a></li>
-            </ul>
+    <header class="header header_css">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="./img/Logo.jpg" alt="logo" class="logopantallas"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto" >
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" aria-current="page" href="../index.html"><strong>Inicio</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" href="./Catalogo.html"><strong>Catalogo</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" href="./Personalizacion.html"><strong>Personalizacion</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto"  href="./Calidad.html"><strong>Calidad</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light navegadorcontacto" href="./Contacto.html"><strong>Contacto</strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <hr>
+
     <!--MAIN-->
-    <main>
+    <main id="main_personalizacion">
         <!--primera parte-->
         <section>
             <h2 class="titulo_main_perso">Personalize su asiento</h2>
@@ -48,29 +66,28 @@
         <!--segunda parte-->
         <section>
             <article>
-                <h2 class="titulo_main_perso">Accesorios</h2>
-                <p class="texto_perso">Agregale accesorios para mejorar la comidad del viaje y no aburrirte! Ya no te tenes que preocupar por 
+                <h2 class="titulo_main_perso2">Accesorios</h2>
+                <p class="texto_perso2">Agregale accesorios para mejorar la comidad del viaje y no aburrirte! Ya no te tenes que preocupar por 
                 la beteria de tu celular.</p>
             </article>
-            <div class="div_imagenes">
-                <img src="img/mesita.jpg" alt="mesa" class="imgperso">
-                <img src="img/tablet.png" alt="Tablet en respaldo" class="imgperso">
-                <img src="img/mesa-convasito.jpg" alt="Mesa con vaso" class="imgperso">
+            <div class="div_imagenes2">
+                <img src="img/mesita.jpg" alt="mesa" class="imgperso2">
+                <img src="img/tablet.png" alt="Tablet en respaldo" class="imgperso2">
+                <img src="img/mesa-convasito.jpg" alt="Mesa con vaso" class="imgperso2">
             </div>
         </section>
     </main>
-    <hr>
-    <!--Footer-->
-    <footer>
-        <section>
-            <div id="div_footer">
-                <ul id="listafooter">
-                    <li class="contenidofooter">Telefono: +54 3412222222</li>
-                    <li class="contenidofooter">Email: cont.faicproyecto@gmail.com</li>
-                    <li class="contenidofooter">Direccion: "SAN MARTIN 9999"</li>
-                </ul>
-            </div>
-        </section>
-    </footer>
+<!--FOOTER-->
+<footer class="container-fluid footercompleto">
+    <section class="container">
+        <div>
+            <ul id="listafooter">
+                <li class="contenidofooter ">Telefono: +54 3412222222</li>
+                <li class="contenidofooter">Email: cont.faicproyecto@gmail.com</li>
+                <li class="contenidofooter">Direccion: "SAN MARTIN 9999"</li>
+            </ul>
+        </div>
+    </section>
+</footer>
 </body>
 </html>

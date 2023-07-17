@@ -1,0 +1,151 @@
+#main_catalogo {
+/*PRESENTACION CATALOGO*/
+    div {
+        .titulocat {
+            color: rgb(0, 0, 0);
+            font-family: Arial;
+            font-size: 50px;
+            text-align: center;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .textocat {
+            padding: 0 500px 0 500px;
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    }
+/*PRODUCTOS A LA VENTA*/
+    #containergrid {
+        /*empiezo a aplicar grid*/
+        display: grid;
+        grid-template-areas: 
+        ". np1 ."
+        "im1 d1 ."
+        ". np2 ."
+        ". d2 im2"
+        ". np3 ."
+        "im3 d3 ."
+        ". np4 ."
+        ". d4 im4";
+        grid-template-rows: 50px 250px 50px 250px 50px 250px 50px 250px;
+        grid-template-columns:  300px 1250px 300px;
+        align-content: center;
+        justify-content: center; 
+        text-align: center;
+        /*nombre de las areas*/
+        #np1 {
+    grid-area: np1;
+        }
+
+        #im1 {
+            grid-area: im1;
+        }
+
+        #d1 {
+            grid-area: d1;
+        }
+
+        #np2 {
+            grid-area: np2;
+        }
+
+        #im2 {
+            grid-area: im2;
+        }
+
+        #d2 {
+            grid-area: d2;
+        }
+
+        #np3 {
+            grid-area: np3;
+        }
+
+        #im3 {
+            grid-area: im3;
+        }
+
+        #d3 {
+            grid-area: d3;
+        }
+
+        #np4 {
+            grid-area: np4;
+        }
+
+        #im4 {
+            grid-area: im4;
+        }
+
+        #d4 {
+            grid-area: d4;
+        }
+        /*PRODUCTO*/
+        .nombreproducto {
+            background-color: #D04925;
+            padding: 0 300px 0 300px;
+            border-radius: 30px;
+            color: rgb(0, 0, 0);
+            font-size: 200%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+        .imgproduc {
+            justify-self: center;
+            align-self: center;
+            border-radius: 45px;
+            border: 5px double rgb(255, 150, 30);
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+        .textoproducto {
+            padding: 0 300px 0 300px;
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-self: center;
+            align-self: center;
+            padding: 0;
+        }
+    }
+}
+@media (min-width: 380px) and (max-width: 420px) {
+    #main_catalogo {
+        /*presentacion catalogo movil*/
+        div {
+            .titulocat {
+                display: flex;
+                justify-content: center;
+                font-size: 200%;
+                font-weight: bold;
+            }
+            .textocat{
+                display: flex;
+                justify-content: center;
+                font-size: 100%;
+                padding: 0;
+            }
+        }
+        /*grid movil*/
+        #containergrid {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            .nombreproducto {
+                padding: 0;
+                font-size: 150%;
+            }
+            .textoproducto {
+                padding: 10px;
+                font-size: 100%;
+            }
+            .imgproduc:hover {
+                transform: none;
+            }
+        }
+    }
+}
