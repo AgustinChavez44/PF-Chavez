@@ -1,6 +1,6 @@
 #main_contacto {
     .contactenos {
-        color: $color_letras;
+        color: map-get($coloresfondos, letras);
         font-family: $fuente;
         font-size: 45px;
         text-align: center;
@@ -8,29 +8,44 @@
         margin-bottom: 50px;
     }
     #section_formulario {
-        background-color: #d04a253b;
-        border: double 10px #D04925;
-        box-shadow: 0 0 50px #D04925;
-        padding: 50px;
-        border-radius: 50px;
+        @extend .cartel;
         #formulario {
             .div_casilla_contacto {
                 .titulo_de_llenado {
-                    color: $color_letras;
+                    color: map-get($coloresfondos, letras);
                     font-family: $fuente;
                     font-size: 200%;
                     font-weight: bold;
                 }
             }
-            #booton {
-                display: flex;
-                background-color: coral;
-                color: $color_letras;
-                margin-top: 30px;
-                font-family: $fuente;
-                font-weight: bold;
-                &:hover {
-                    transform: scale(1.5);
+            .div_boton {
+                @include flex(flex, center, center);
+                #booton {
+                    background-color: coral;
+                    color: map-get($coloresfondos, letras);
+                    margin-top: 30px;
+                    font-family: $fuente;
+                    font-weight: bold;
+                    &:hover {
+                        transform: scale(1.5);
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 380px) and (max-width: 420px) {
+    #main_contacto {
+        .contactenos {
+            font-size: 200%;
+        }
+        #section_formulario {
+            #formulario {
+                .div_casilla_contacto {
+                    .titulo_de_llenado {
+                        @include flex(flex, center ,center);
+                        font-size: 100%;
+                    }
                 }
             }
         }

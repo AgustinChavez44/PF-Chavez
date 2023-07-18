@@ -1,9 +1,31 @@
 /*COLORES*/
-$color_header: #000000;
-
-$color_footer: #D04925;
-
-$color_letras: #000000;
+$coloresfondos: (
+    header: #000000,
+    footer: #D04925,
+    letras: #000000,
+);
 
 /*FUENTE*/
 $fuente: 'Arial', sans-serif;
+
+
+
+
+
+
+@mixin flex($display, $ejeX, $ejeY) {
+    display: $display;
+    justify-content: $ejeX;
+    align-items: $ejeY;
+}
+
+/*CARTEL*/
+.cartel {
+    background-color: #d04a253b;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border: double 10px #D04925;
+    box-shadow: 0 0 50px #D04925;
+}

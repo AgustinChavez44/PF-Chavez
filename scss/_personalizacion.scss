@@ -1,7 +1,7 @@
 #main_personalizacion {
     section {
         .titulo_main_perso {
-            color: $color_letras;
+            color: map-get($coloresfondos, letras);
             font-family: $fuente;
             font-size: 50px;
             text-align: center;
@@ -15,11 +15,10 @@
             margin:  0 400px 0 400px;
             font-family: $fuente;
             font-size: 150%;
-            color: $color_letras;
+            color: map-get($coloresfondos, letras);
         }
         .div_imagenes {
-            display: flex;
-            justify-content: space-around;
+            @include flex(flex, space-around, center);
             .imgperso {
                 width: 600px;
             }
@@ -28,7 +27,7 @@
     section {
         article {
             .titulo_main_perso2 {
-                color: $color_letras;
+                color: map-get($coloresfondos, letras);
                 font-family: $fuente;
                 font-size: 50px;
                 text-align: center;
@@ -36,13 +35,12 @@
                 margin: 20px;
             }
             .texto_perso2 {
-                display: flex;
+                @include flex(flex, center, center);
                 flex-direction: column;
-                text-align: center;
                 margin:  0 400px 0 400px;
                 font-family: $fuente;
                 font-size: 150%;
-                color: $color_letras;
+                color: map-get($coloresfondos, letras);
             }
         }
         .div_imagenes2 {

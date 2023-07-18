@@ -2,6 +2,7 @@
 /*PRESENTACION CATALOGO*/
     div {
         .titulocat {
+            color: map-get($coloresfondos, letras);
             font-family: $fuente;
             font-size: 50px;
             text-align: center;
@@ -10,7 +11,7 @@
         }
         .textocat {
             padding: 0 500px 0 500px;
-            color: $color_letras;
+            color: map-get($coloresfondos, letras);
             font-size: 30px;
             font-family: $fuente;
             text-align: center;
@@ -87,7 +88,7 @@
             background-color: #D04925;
             padding: 0 300px 0 300px;
             border-radius: 30px;
-            color: $color_letras;
+            color: map-get($coloresfondos, letras);
             font-size: 200%;
             font-family: $fuente;
             font-weight: bold;
@@ -103,7 +104,7 @@
         }
         .textoproducto {
             padding: 0 300px 0 300px;
-            color: $color_letras;
+            color: map-get($coloresfondos, letras);
             font-size: 25px;
             font-family: $fuente;
             justify-self: center;

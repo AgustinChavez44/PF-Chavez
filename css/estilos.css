@@ -1,5 +1,16 @@
 /*COLORES*/
 /*FUENTE*/
+/*CARTEL*/
+.cartel, #main_contacto #section_formulario, #main_calidad .cartel_politica_calidad {
+  background-color: rgba(208, 74, 37, 0.231372549);
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  border: double 10px #D04925;
+  box-shadow: 0 0 50px #D04925;
+}
+
 header {
   background-color: #000000;
 }
@@ -121,7 +132,7 @@ footer section div ul li {
 #main_calidad section #t_laboratorio {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   font-size: 350%;
   color: #000000;
   font-family: "Arial", sans-serif;
@@ -129,6 +140,8 @@ footer section div ul li {
 }
 #main_calidad section div .tex_laboratorio {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Arial", sans-serif;
   font-size: 125%;
   font-weight: bold;
@@ -140,7 +153,7 @@ footer section div ul li {
 #main_calidad section .bloquenorma .norma_seguridad {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   color: #000000;
   font-size: 150%;
   font-family: "Arial", sans-serif;
@@ -153,7 +166,7 @@ footer section div ul li {
 #main_calidad section .bloquenorma .tex_norma {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   color: #000000;
   font-size: 150%;
   font-family: "Arial", sans-serif;
@@ -174,18 +187,10 @@ footer section div ul li {
 #main_calidad .div_imagenescalidad .imagenes_calidad {
   width: 450px;
 }
-#main_calidad .cartel_politica_calidad {
-  background-color: rgb(196, 196, 196);
-  border-radius: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 50px;
-  border: double 10px #D04925;
-  box-shadow: 0 0 50px #D04925;
-}
 #main_calidad .cartel_politica_calidad .t_politica_calidad {
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #000000;
   font-family: "Arial", sans-serif;
   font-size: 300%;
@@ -240,6 +245,7 @@ footer section div ul li {
   /*PRODUCTOS A LA VENTA*/
 }
 #main_catalogo div .titulocat {
+  color: #000000;
   font-family: "Arial", sans-serif;
   font-size: 50px;
   text-align: center;
@@ -383,6 +389,7 @@ footer section div ul li {
 #main_personalizacion section .div_imagenes {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 #main_personalizacion section .div_imagenes .imgperso {
   width: 600px;
@@ -397,8 +404,9 @@ footer section div ul li {
 }
 #main_personalizacion section article .texto_perso2 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  text-align: center;
   margin: 0 400px 0 400px;
   font-family: "Arial", sans-serif;
   font-size: 150%;
@@ -458,31 +466,39 @@ footer section div ul li {
   font-weight: bold;
   margin-bottom: 50px;
 }
-#main_contacto #section_formulario {
-  background-color: rgba(208, 74, 37, 0.231372549);
-  border: double 10px #D04925;
-  box-shadow: 0 0 50px #D04925;
-  padding: 50px;
-  border-radius: 50px;
-}
 #main_contacto #section_formulario #formulario .div_casilla_contacto .titulo_de_llenado {
   color: #000000;
   font-family: "Arial", sans-serif;
   font-size: 200%;
   font-weight: bold;
 }
-#main_contacto #section_formulario #formulario #booton {
+#main_contacto #section_formulario #formulario .div_boton {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main_contacto #section_formulario #formulario .div_boton #booton {
   background-color: coral;
   color: #000000;
   margin-top: 30px;
   font-family: "Arial", sans-serif;
   font-weight: bold;
 }
-#main_contacto #section_formulario #formulario #booton:hover {
+#main_contacto #section_formulario #formulario .div_boton #booton:hover {
   transform: scale(1.5);
 }
 
+@media (min-width: 380px) and (max-width: 420px) {
+  #main_contacto .contactenos {
+    font-size: 200%;
+  }
+  #main_contacto #section_formulario #formulario .div_casilla_contacto .titulo_de_llenado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+  }
+}
 body {
   background-color: #E9E5DD;
 }

@@ -1,5 +1,5 @@
 footer {
-    background-color: $color_footer;
+    background-color: map-get($coloresfondos, footer);
     section {
         div{
             ul {
@@ -8,7 +8,7 @@ footer {
                 margin: 30px;
                 list-style: none;
                 li {
-                    color: $color_letras;
+                    color: map-get($coloresfondos, letras);
                     list-style: none;
                     font-size: 150%;
                     font-family: $fuente;

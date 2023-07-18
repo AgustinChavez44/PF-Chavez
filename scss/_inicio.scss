@@ -2,7 +2,7 @@
 
 #main_inicio {
     .titulomain {
-        color: $color_letras;
+        color: map-get($coloresfondos, letras);
         font-family: $fuente;
         font-size: 50px;
         text-align: center;
@@ -16,7 +16,7 @@
         margin:  0 400px 0 400px;
         font-family: $fuente;
         font-size: 200%;
-        color: $color_letras;
+        color: map-get($coloresfondos, letras);
     }
     section {
         div {
@@ -26,7 +26,7 @@
             margin:  0 400px 0 400px;
             font-family: $fuente;
             font-size: 200%;
-            color: $color_letras;
+            color: map-get($coloresfondos, letras);
         }
         div {
             display: flex;

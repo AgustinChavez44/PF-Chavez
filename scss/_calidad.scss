@@ -2,21 +2,19 @@
     
     section {
         #t_laboratorio {
-            display: flex;
-            justify-content: center;
-            text-align: center;
+            @include flex(flex, center, center);
             font-size: 350%;
-            color: $color_letras;
+            color: map-get($coloresfondos, letras);
             font-family: $fuente;
             font-weight: bold;
         }
         div {
             .tex_laboratorio {
-                display: flex;
+                @include flex(flex, center, center);
                 font-family: $fuente;
                 font-size: 125%;
                 font-weight: bold;
-                color: $color_letras;
+                color: map-get($coloresfondos, letras);
                 border-radius: 25px;
                 padding: 20px;
                 border: solid 2px ;
@@ -27,10 +25,8 @@
     section {
         .bloquenorma {
             .norma_seguridad {
-                display: flex;
-                justify-content: center;
-                text-align: center;
-                color: $color_letras;
+                @include flex(flex, center, center);
+                color: map-get($coloresfondos, letras);
                 font-size: 150%;
                 font-family: $fuente;
                 font-weight: bold;
@@ -40,10 +36,8 @@
                 margin: 0;
             }
             .tex_norma {
-                display: flex;
-                justify-content: center;
-                align-content: center;
-                color: $color_letras;
+                @include flex(flex, center, center);
+                color: map-get($coloresfondos, letras);
                 font-size: 150%;
                 font-family: $fuente;
                 background-color: #D04925;
@@ -55,7 +49,7 @@
 /*MATERIALES*/
     .tex_materiales {
         font-family: $fuente;
-        color: $color_letras;
+        color: map-get($coloresfondos, letras);
         font-size: 150%;
         font-weight: bold;
     }
@@ -69,23 +63,16 @@
     }
 /*POLITICA DE CALIDAD*/
     .cartel_politica_calidad {
-        background-color: rgb(196, 196, 196);
-        border-radius: 50px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding: 50px;
-        border: double 10px #D04925;
-        box-shadow: 0 0 50px #D04925;
+        @extend .cartel; 
         .t_politica_calidad {
-            display: flex;
-            justify-content: center;
-            color: $color_letras;
+            @include flex(flex, center, center);
+            color: map-get($coloresfondos, letras);
             font-family: $fuente;
             font-size: 300%;
             font-weight: bold;
         }
         .tex_politica_calidad {
-            color: $color_letras;
+            color: map-get($coloresfondos, letras);
             font-family: $fuente;
             font-size: 150%;
             padding: 0 100px 0 100px;
