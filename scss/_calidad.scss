@@ -48,6 +48,7 @@
     }
 /*MATERIALES*/
     .tex_materiales {
+        @include flex(flex, center, center);
         font-family: $fuente;
         color: map-get($coloresfondos, letras);
         font-size: 150%;
