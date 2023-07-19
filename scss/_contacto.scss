@@ -14,7 +14,7 @@
                 .titulo_de_llenado {
                     color: map-get($coloresfondos, letras);
                     font-family: $fuente;
-                    font-size: 200%;
+                    font-size: 75%;
                     font-weight: bold;
                 }
             }
@@ -28,6 +28,7 @@
                     font-weight: bold;
                     &:hover {
                         transform: scale(1.5);
+                        rotate: 10deg;
                     }
                 }
             }
@@ -44,7 +45,7 @@
                 .div_casilla_contacto {
                     .titulo_de_llenado {
                         @include flex(flex, center ,center);
-                        font-size: 100%;
+                        font-size: 50%;
                     }
                 }
             }

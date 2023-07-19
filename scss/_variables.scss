@@ -8,7 +8,14 @@ $coloresfondos: (
 /*FUENTE*/
 $fuente: 'Arial', sans-serif;
 
-
+/*Animacion*/
+@keyframes animacion_politica {
+    0%{background-color: #ffffff;}
+    25%{background-color: #d04a253b;}
+    50%{background-color: #ffffff;}
+    75%{background-color: #d04a253b;}
+    100%{background-color: #ffffff;}
+}
 
 
 
@@ -21,7 +28,6 @@ $fuente: 'Arial', sans-serif;
 
 /*CARTEL*/
 .cartel {
-    background-color: #d04a253b;
     border-radius: 50px;
     margin-top: 50px;
     margin-bottom: 50px;

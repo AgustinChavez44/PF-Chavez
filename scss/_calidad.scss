@@ -64,6 +64,10 @@
 /*POLITICA DE CALIDAD*/
     .cartel_politica_calidad {
         @extend .cartel; 
+        animation-name: animacion_politica;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 10s;
         .t_politica_calidad {
             @include flex(flex, center, center);
             color: map-get($coloresfondos, letras);

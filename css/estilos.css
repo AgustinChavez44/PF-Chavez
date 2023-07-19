@@ -1,8 +1,25 @@
 /*COLORES*/
 /*FUENTE*/
+/*Animacion*/
+@keyframes animacion_politica {
+  0% {
+    background-color: #ffffff;
+  }
+  25% {
+    background-color: rgba(208, 74, 37, 0.231372549);
+  }
+  50% {
+    background-color: #ffffff;
+  }
+  75% {
+    background-color: rgba(208, 74, 37, 0.231372549);
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
 /*CARTEL*/
 .cartel, #main_contacto #section_formulario, #main_calidad .cartel_politica_calidad {
-  background-color: rgba(208, 74, 37, 0.231372549);
   border-radius: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -32,7 +49,11 @@ header nav div div ul li a:hover {
   }
 }
 footer {
-  background-color: #D04925;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-image: linear-gradient(to bottom, #D04925, rgba(0, 0, 0, 0.662745098));
 }
 footer section div ul {
   display: flex;
@@ -48,6 +69,9 @@ footer section div ul li {
 }
 
 @media (min-width: 380px) and (max-width: 420px) {
+  footer {
+    height: 50px;
+  }
   footer section div ul {
     display: flex;
     flex-direction: column;
@@ -186,6 +210,12 @@ footer section div ul li {
 }
 #main_calidad .div_imagenescalidad .imagenes_calidad {
   width: 450px;
+}
+#main_calidad .cartel_politica_calidad {
+  animation-name: animacion_politica;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
 }
 #main_calidad .cartel_politica_calidad .t_politica_calidad {
   display: flex;
@@ -469,7 +499,7 @@ footer section div ul li {
 #main_contacto #section_formulario #formulario .div_casilla_contacto .titulo_de_llenado {
   color: #000000;
   font-family: "Arial", sans-serif;
-  font-size: 200%;
+  font-size: 75%;
   font-weight: bold;
 }
 #main_contacto #section_formulario #formulario .div_boton {
@@ -486,6 +516,7 @@ footer section div ul li {
 }
 #main_contacto #section_formulario #formulario .div_boton #booton:hover {
   transform: scale(1.5);
+  rotate: 10deg;
 }
 
 @media (min-width: 380px) and (max-width: 420px) {
@@ -496,7 +527,7 @@ footer section div ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100%;
+    font-size: 50%;
   }
 }
 body {
