@@ -38,3 +38,21 @@ footer {
         }
     }
 }
+@media (min-width: 420px) and (max-width: 600px) {
+    footer {
+        height:75px;
+        section {
+            div {
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        display: flex;
+                        justify-content: center;
+                        font-size: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

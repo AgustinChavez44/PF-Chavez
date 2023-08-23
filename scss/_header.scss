@@ -35,3 +35,14 @@ header {
         }
     }
 }
+@media (min-width: 420px) and (max-width: 600px) {
+    header{
+        nav{
+            div{
+                .logopantallas {
+                    width: 170px;
+                }
+            }
+        }
+    }
+}
